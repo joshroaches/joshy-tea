@@ -5,7 +5,6 @@ class JoshyTea {
   
     setTeaData(key, value) {
       this.teaData[key] = value;
-      console.log(`Set Joshy Tea data for key '${key}':`, value);
     }
   
     getTeaData(key) {
